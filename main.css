@@ -21,6 +21,8 @@ header .container{
 
 header li{
     display: inline;
+    font-weight: bold;
+    margin-left: 16px;
 }
 
 header li a{
@@ -39,7 +41,7 @@ header li a{
 }
 
 .articles article img{
-    height: 180px;
+    width: 100%;
 }
 
 .articles article{
@@ -64,6 +66,35 @@ section h2, .articles article{
     color: white;
     padding: 8px;
     display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top:8px;
 }
 
+.articles article a:hover{
+    text-decoration: underline;
+}
 
+.articles article h3{
+    font-size: 24px;
+}
+
+section h2{
+    font-size:32px;
+}
+
+#sports{
+    background-color: rgba(0, 255, 0, 0.1);
+}
+
+#sports .articles article a{
+    background-color: #009432;
+}
+
+#economy{
+    background-color: #f5f59f;
+}
+
+#economy .articles article a{
+    background-color: #ff9f1a;
+}
